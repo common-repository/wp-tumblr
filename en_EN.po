@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress Tumblr AJAX Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-07 11:56+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sagie Maoz <n0nick@php.net>\n"
+"Language-Team:  <sagiem@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: widget-tumblr.php:18
+msgid "Tumblr Feed"
+msgstr ""
+
+#: widget-tumblr.php:34
+msgid "More..."
+msgstr ""
+
+#: widget-tumblr.php:175
+msgid "Title:"
+msgstr ""
+
+#: widget-tumblr.php:176
+msgid "Tumblelog Domain:"
+msgstr ""
+
+#: widget-tumblr.php:177
+msgid "Posts count:"
+msgstr ""
+
+#: widget-tumblr.php:178
+msgid "Audio Player color:"
+msgstr ""

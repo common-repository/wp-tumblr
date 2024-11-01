@@ -1,0 +1,114 @@
+/* Some sample style rules for WP-Tumblr.
+NOTE: This was tailor-made for my personal website, that among other things is right-aligned (RTL). So hack accordingly.
+*/
+#tumblr_container {
+	text-align: right;
+	}
+#tumblr_container.loading {
+	background: transparent url('images/loading.gif') no-repeat 50% 50%;
+	height: 250px;
+	}
+.tumblr_item {
+	position: relative;
+	display: block;
+	width: 180px;
+	height: 180px;
+	overflow: hidden;
+	background-color: #444;
+	float: right;
+	margin: 2px;
+	text-align: center;
+	border: 0;
+	direction: ltr;
+	text-decoration: none !important;
+	line-height: 100%;
+	}
+.tumblr_item.rtl {
+	direction: rtl;
+	}
+	.tumblr_item .tumblr_caption {
+		font-size: 0.8em;
+		display: block;
+		}
+	.tumblr_item .hover {
+		display: none;
+		}
+	.tumblr_item:hover .hover {
+		display: block;
+		overflow: hidden;
+		width: 100%;
+		height: 100%;
+		padding: 35px 5px;
+		background-color: #dadada;
+		color: #313131;
+		opacity: 0.75;
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-weight: bold;
+		}
+	.tumblr_item .what {}
+		.tumblr_item .what object,
+		.tumblr_item .what embed {
+			width: 180px;
+			max-height: 180px;
+			}
+a.tumblr_photo {}
+	.tumblr_photo .what {
+		max-width: 180px;
+		max-height: 180px;
+		}
+	.tumblr_photo .what.ratio_w {
+		max-height: none;
+		}
+	.tumblr_photo .what.ratio_h {
+		max-width: none;
+		}
+	.tumblr_photo .what.zoom {
+		max-width: 310px;
+		max-height: 310px;
+		}
+a.tumblr_video {}
+a.tumblr_audio {
+	text-decoration: none;
+	}
+	.tumblr_audio .what {
+		padding-top: 40px;
+		}
+a.tumblr_link,
+a.tumblr_regular {}
+	.tumblr_link .what,
+	.tumblr_regular .what {
+		font-weight: bold;
+		font-size: 1.2em;
+		}
+		.tumblr_link .what span,
+		.tumblr_regular .what span {
+			font-weight: regular;
+			display: block;
+			font-size: 0.5em;
+			}
+			
+a.tumblr_conversation {}
+	.tumblr_conversation .what {
+		font-size: 0.75em;
+		text-align: left;
+		color: #333;
+		}
+	.tumblr_conversation.rtl .what {
+		text-align: right;
+		}
+		.tumblr_conversation .what div {
+			display: block;
+			background: #e1e1e1;
+			}
+		.tumblr_conversation .what div.o {
+			background: #eaeaea;
+			}
+			.tumblr_conversation .what div .l {
+				font-weight: bold;
+				}
+a.tumblr_more {
+	float: left;
+	margin-left: 15px;
+	}
